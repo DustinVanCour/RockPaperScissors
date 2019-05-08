@@ -4,6 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Rock Paper Scissors</title>
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
@@ -13,14 +16,23 @@
 	<div class="section">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col">
-					<button onclick="play('rock')">Rock</button>
+				<div class="col" id="weapon">
+					<h1>Choose Your Weapon!</h1>
 				</div>
-				<div class="col">
-					<button onclick="play('paper')">Paper</button>
-				</div>
-				<div class="col">
-					<button onclick="play('scissors')">Scissors</button>
+			</div>
+			<div class="section">
+				<div class="container-fluid" id="buttons">
+					<div class="row">
+						<div class="col button">
+							<button onclick="play('rock')"><i class="far fa-hand-rock"></i></button>
+						</div>
+						<div class="col button">
+							<button onclick="play('paper')"><i class="far fa-hand-paper"></i></button>
+						</div>
+						<div class="col button">
+							<button onclick="play('scissors')"><i class="far fa-hand-scissors"></i></button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

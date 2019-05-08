@@ -1,0 +1,17 @@
+#weapon {
+  font-family: 'Righteous', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}

@@ -1,7 +1,8 @@
 var x = ?
-var compChoice = Math.random(1, 2, 3)
+var compChoice = Math.random();
+if compChoice
 
 function play() {
-  //Need to determine variables that equal r-p-s
-  //Need if-else staements to determine the winner
-}
+    //Need to determine variables that equal r-p-s
+    //Need if-else staements to determine the winner
+  }
