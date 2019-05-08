@@ -1,7 +1,7 @@
-let rock = 'r'
-let paper = 'p'
-let scissors = 's'
+var x = ?
+var compChoice = Math.random(1, 2, 3)
 
 function play() {
-  //need to 
+  //Need to determine variables that equal r-p-s
+  //Need if-else staements to determine the winner
 }
